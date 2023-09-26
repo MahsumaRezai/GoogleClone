@@ -7,7 +7,6 @@ import img2 from './image/chart.PNG';
 import img3 from './image/fersh.PNG';
 import img4 from './image/ondo.PNG';
 
-
 const Head = (props) => {
 
     return (
@@ -15,19 +14,10 @@ const Head = (props) => {
             <div className={classes.head}>
                 <img src={img4} alt="" />
                 <img src={img3} alt="" />
-                <input className={classes.input} />
+                <input  className={classes.input}  />
                 <img src={img2} alt="" />
                 <img src={img1} alt="" className={classes.profile} />
                 <img src={img} alt="" className={classes.shap} />
-
-
-
-
-
-
-
-
-
             </div>
 
         </Fragment>
