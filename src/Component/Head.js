@@ -1,13 +1,15 @@
 import { Fragment } from "react";
 import React from 'react'
+const Head = (props) => {
 
-function App(props) {
     return (
         <Fragment>
-            <h2>hello</h2>
+            <div>
+
+            </div>
 
         </Fragment>
+
     )
 }
-
-export default App;
+export default Head;
