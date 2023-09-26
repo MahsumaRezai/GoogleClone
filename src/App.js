@@ -1,10 +1,11 @@
 import { Fragment } from "react";
 import React from 'react'
+import Head from "./Component/Head";
 
 function App(props) {
     return (
         <Fragment>
-            <h2>hello</h2>
+            <Head />
 
         </Fragment>
     )
