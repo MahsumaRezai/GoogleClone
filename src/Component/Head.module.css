@@ -5,3 +5,11 @@
     margin: 0;
     box-shadow: 2px 2px 2px 2px ghostwhite
 }
+.postion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:  10px 20px
+}
+
