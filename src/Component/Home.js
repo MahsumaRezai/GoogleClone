@@ -7,8 +7,13 @@ const Home = (props) => {
     return (
         <Fragment>
             <div className={classes.home}>
-                <div>
-                    <h1 className={classes.title}>Google</h1>
+                <div className={classes.warrp}>
+                    <span className={classes.title}>Goo</span>
+                    <span className={classes.titletwo}>gle</span>
+                </div>
+                <div className={classes.flied}>
+                    <input className={classes.input} />
+
                 </div>
 
             </div>

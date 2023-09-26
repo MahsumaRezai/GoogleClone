@@ -1,8 +1,41 @@
-
+.warrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
 .title {
-    color: red;
+    color: green;
     text-align: center;
     padding-top: 100px;
     font-family: 'Segoe UI', Tahoma, sans-serif;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: bold;
+   
+    
+}
+
+.titletwo {
+    color:gold;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 80px;
+    font-weight: bold
+}
+.flied {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.input {
+    width: 700px;
+    height: 50px;
+    border:1px solid gainsboro;
+    border-radius: 50px;
+    background: ghostwhite;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px  greenyellow
 }
