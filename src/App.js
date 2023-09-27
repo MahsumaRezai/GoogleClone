@@ -8,7 +8,6 @@ function App(props) {
         <Fragment>
             <Head />
             <Home/>
-
         </Fragment>
     )
 }
